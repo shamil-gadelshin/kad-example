@@ -5,3 +5,5 @@ This project was created as an example to reproduce a possible Kademlia bug: htt
 It contains the miminal kademlia setup based on the libp2p v.0.46.1 Kademlia example. It was later upgraded to the latest to date version - 0.49.0.
 
 The project shows that `start_providing` method produces warnings in contrast with `put_record` or `get_closest_peers`: https://github.com/shamil-gadelshin/kad-example/blob/613564ee773d78dc47cfaf30547d5fbf9300fcce/src/minimal_kademlia.rs#L92
+
+It was also tested with the latest master (90df86d9e77172123562f8247f436f3e6da891e0)
